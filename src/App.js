@@ -1,16 +1,19 @@
 import React from 'react'
 import Navegador from './components/Navbar'
+import Router from './routes'
 import Footer from './components/Footer'
-import Home from './pages/Main'
 
-function App() {
-  return (
+function App( { loaded }) {
+  
+    return (
       <div>
         <Navegador />
-        <Home />
+        <Router />
         <Footer />
       </div>
-    );
+    )
+
+     
 }
 
 export default App;

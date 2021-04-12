@@ -16,6 +16,7 @@ import {
 const Navegador = (props) => {
   const [isOpen, setIsOpen] = useState(false);
 
+  //Navbar construída com reactstrap
   const toggle = () => setIsOpen(!isOpen);
 
   return (
@@ -26,13 +27,12 @@ const Navegador = (props) => {
         <Collapse isOpen={isOpen} navbar>
           <Nav className="mr-auto" navbar>
               <NavItem className="mr-auto">
-                <NavLink className="ml-3">Sobre</NavLink>
+                <NavLink className="ml-5" href="/projetos">Projetos</NavLink>
               </NavItem>
               <NavItem >
-                <NavLink className="ml-3">Contato</NavLink>
+                <NavLink className="ml-4" href="/contato">Contato</NavLink>
               </NavItem>
             </Nav>
-          <NavbarText ><h6>Abc</h6></NavbarText>
         </Collapse>
       </Navbar>
     </div>
