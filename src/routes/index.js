@@ -3,6 +3,7 @@ import {BrowserRouter, Switch, Route} from 'react-router-dom'
 import Home from '../pages/Main'
 import Projetos from '../pages/Projetos'
 import Contato from '../pages/Contato'
+import '../styles/global.css'
 
 export default function index() {
     return (

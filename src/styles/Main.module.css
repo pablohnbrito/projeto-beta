@@ -1,0 +1,19 @@
+.conteiner {
+  background-color: gray;
+  font-family: 'Courier New', Courier, monospace;
+  font-weight: bold;
+  width: 100%;
+}
+a {
+  color: white;
+}
+a:hover {
+  color: navy;
+}
+
+h4 {
+  color: white;
+  text-align: center;
+}
+
+

@@ -1,15 +1,13 @@
 import React from 'react'
-import './index.css'
+import { Col, Row , Container} from 'reactstrap'
+import classes from '../../styles/Footer.module.css'
 
 function Footer() {
     return (
         <footer>
-            <div >
-            <div >
-                <h1>oi</h1>
-            </div>
-            </div>
-            
+            <Container color="dark" className={classes.footer} fluid={true}>
+                        <p>oi</p>    
+            </Container>
         </footer>
      
     )
